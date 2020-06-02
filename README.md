@@ -67,3 +67,18 @@ You can use whatever resource you need for this project. You can use the interne
 -   Clean code (indentation, comments, clear variables and functions names)
 
 ## Good luck, and happy coding ✨
+
+## Explanations
+
+-   In this code, I set the variable listWord which containt the senteces part. 
+-   Second, I created variable indexQuote to name each part of the quote so that I can specify them.
+-   Then, I created a function generatePart for defining each quote.
+-   I creat var combination to generalise how would be the value, and I creat variable quoteIdex for the function value, which content empty but then the for loop will difine what should be the value.
+-   I used for loop with if condiction.
+-   I set the random, which based on quoteIndex value, I use Math.floor and Math.random.
+-   Last I set fuction quoteComplet to colocate the function generatePart and the sample of part sentences.
+
+## what should I improve
+
+-   It is hard for me to understant Javascript I try to look for solution how I can deal with it but couldn't not find solution.
+-   Sometimes I want to ask a question but I don't know what I don't know.
