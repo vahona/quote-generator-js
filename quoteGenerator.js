@@ -28,16 +28,26 @@ if (numberOfQuotes >= 1 && numberOfQuotes <= 5) {
 	}
 } else {
   console.error('We need a number between 1 and 5');
-  
-  function numberPossible(){
-    var choose = Number(prompt("Type the number 1 for 1 generator  and 2 for 2 generator"));
-    var canBe = Number(prompt("Enter number of quote you want to generate"))
 
-    for(i = 0; i < canBe; i++){
-      generateQuote(choose)
-    }
+  //
+  function numberPossible(){
+	var index;
+	let choose = Number(prompt("Type the number 1 for 1 generator  and 2 for 2 generator"));
+	while(choose !== 1 && choose !== 2){
+	choose = Number(prompt("Type the number 1 for 1 generator  and 2 for 2 generator"));
+	
   }
-}
+	for(i = 0; i < canBe; i++){
+		generateQuote(choose);
+		var canBe = Number(prompt("Enter number of quote you want to generate"));
+		generateQuote === quote; 
+	  }
+
+	 }
+	
+  }
+  
+  
 
   
 
